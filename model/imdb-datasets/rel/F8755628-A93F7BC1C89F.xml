@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<relationalModel class="oracle.dbtools.crest.model.design.relational.RelationalDesign" name="IMDB Datasets - Oracle" id="F8755628-9A98-28F9-FBC0-A93F7BC1C89F" mainViewID="A9515289-EC67-7A18-BBA1-25DA140A613C">
+<createdBy>braimt</createdBy>
+<createdTime>2022-08-14 15:08:19 UTC</createdTime>
+<ownerDesignName>imdb-datasets</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+<selectedRDBMSSite>79C73AAF-E1A7-E669-7DF0-025EE81A2AFC</selectedRDBMSSite>
+</relationalModel>

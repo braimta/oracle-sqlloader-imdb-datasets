@@ -1,0 +1,124 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="9DCAD273-2F6A-CDEC-238E-97267E7D11FA" name="TITLE_BASICS">
+<createdBy>braimt</createdBy>
+<createdTime>2022-08-14 15:32:51 UTC</createdTime>
+<ownerDesignName>imdb-datasets</ownerDesignName>
+<ordsAlias>table_2</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="TCONST" id="CFCAC323-94C5-F6AC-2AB9-B325EEEF4AFB">
+<createdBy>braimt</createdBy>
+<createdTime>2022-08-14 15:37:05 UTC</createdTime>
+<commentInRDBMS><![CDATA[alphanumeric unique identifier of the title]]></commentInRDBMS>
+<ownerDesignName>imdb-datasets</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>12 CHAR</dataTypeSize>
+<ownDataTypeParameters>12 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="TITLE_TYPE" id="9503C3D5-B136-FB33-F828-45928919A479">
+<createdBy>braimt</createdBy>
+<createdTime>2022-08-14 15:37:05 UTC</createdTime>
+<commentInRDBMS><![CDATA[the type/format of the title (e.g. movie, short, tvseries, tvepisode, video, etc)]]></commentInRDBMS>
+<ownerDesignName>imdb-datasets</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 CHAR</dataTypeSize>
+<ownDataTypeParameters>20 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PRIMARY_TITLE" id="154D2E81-2296-CD90-E151-24DAFD6322C0">
+<createdBy>braimt</createdBy>
+<createdTime>2022-08-14 15:37:05 UTC</createdTime>
+<commentInRDBMS><![CDATA[the more popular title / the title used by the filmmakers on promotional materials at the point of release]]></commentInRDBMS>
+<ownerDesignName>imdb-datasets</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>4000 CHAR</dataTypeSize>
+<ownDataTypeParameters>4000 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ORIGINAL_TITLE" id="96E69989-F420-0758-8E30-DFFE5E8F868D">
+<createdBy>braimt</createdBy>
+<createdTime>2022-08-14 15:37:05 UTC</createdTime>
+<commentInRDBMS><![CDATA[original title, in the original language]]></commentInRDBMS>
+<ownerDesignName>imdb-datasets</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>4000 CHAR</dataTypeSize>
+<ownDataTypeParameters>4000 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="IS_ADULT" id="7E1A67FC-18B8-9726-0C46-617F83C193E5">
+<createdBy>braimt</createdBy>
+<createdTime>2022-08-14 15:37:05 UTC</createdTime>
+<ownerDesignName>imdb-datasets</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>1</dataTypePrecision>
+<ownDataTypeParameters>,1,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="START_YEAR" id="2D157289-BA72-0215-F2C2-B755CE415000">
+<createdBy>braimt</createdBy>
+<createdTime>2022-08-14 15:37:05 UTC</createdTime>
+<ownerDesignName>imdb-datasets</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<ownDataTypeParameters>,4,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="END_YEAR" id="67C9AD17-7839-211F-76C7-C761BA945219">
+<createdBy>braimt</createdBy>
+<createdTime>2022-08-14 15:37:05 UTC</createdTime>
+<ownerDesignName>imdb-datasets</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<ownDataTypeParameters>,4,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="RUNTIME_MINUTES" id="5E121134-9F10-7AB9-0CC0-1A5705DF54CF">
+<createdBy>braimt</createdBy>
+<createdTime>2022-08-14 15:37:05 UTC</createdTime>
+<ownerDesignName>imdb-datasets</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>8</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,8,2</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="GENRES" id="6B655077-3C95-BB39-94D8-21BF09C7364F">
+<createdBy>braimt</createdBy>
+<createdTime>2022-08-14 15:37:05 UTC</createdTime>
+<ownerDesignName>imdb-datasets</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>4000 CHAR</dataTypeSize>
+<ownDataTypeParameters>4000 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+</Table>

@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="imdb-datasets" id="E22F5C20-803B-F38C-8426-099CD18A52B9" version="3.5">
+<createdBy>braimt</createdBy>
+<createdTime>2022-08-14 15:08:16 UTC</createdTime>
+<ownerDesignName>imdb-datasets</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>E22F5C20-803B-F38C-8426-099CD18A52B9</designId>
+</OSDM_Design>

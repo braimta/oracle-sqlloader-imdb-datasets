@@ -1,0 +1,64 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="99026AEE-AE79-1C4F-072A-42F3BB9045FA" name="TITLE_EPISODES">
+<createdBy>braimt</createdBy>
+<createdTime>2022-08-14 15:39:33 UTC</createdTime>
+<commentInRDBMS><![CDATA[Contains the tv episode information.]]></commentInRDBMS>
+<ownerDesignName>imdb-datasets</ownerDesignName>
+<ordsAlias>table_4</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="TCONST" id="355A2CEA-456C-D9B6-ED97-3EDF7791B100">
+<createdBy>braimt</createdBy>
+<createdTime>2022-08-14 15:40:00 UTC</createdTime>
+<commentInRDBMS><![CDATA[alphanumeric identifier of episode]]></commentInRDBMS>
+<ownerDesignName>imdb-datasets</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>1000 CHAR</dataTypeSize>
+<ownDataTypeParameters>1000 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PARENT_TCONST" id="27FCE5C4-F028-5121-6A4F-C3DA725D973A">
+<createdBy>braimt</createdBy>
+<createdTime>2022-08-14 15:40:00 UTC</createdTime>
+<commentInRDBMS><![CDATA[alphanumeric identifier of the parent TV Series]]></commentInRDBMS>
+<ownerDesignName>imdb-datasets</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>1000 CHAR</dataTypeSize>
+<ownDataTypeParameters>1000 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="SEASON_NUMBER" id="7862E6EA-74BB-8F58-D6A5-003FCE9E0649">
+<createdBy>braimt</createdBy>
+<createdTime>2022-08-14 15:40:29 UTC</createdTime>
+<commentInRDBMS><![CDATA[season number the episode belongs to]]></commentInRDBMS>
+<ownerDesignName>imdb-datasets</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>8</dataTypePrecision>
+<ownDataTypeParameters>,8,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="EPISODE_NUMBER" id="D5E40C91-5BEE-F8A1-B777-05BE201A089E">
+<createdBy>braimt</createdBy>
+<createdTime>2022-08-14 15:40:29 UTC</createdTime>
+<commentInRDBMS><![CDATA[episode number of the tconst in the TV series]]></commentInRDBMS>
+<ownerDesignName>imdb-datasets</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>8</dataTypePrecision>
+<ownDataTypeParameters>,8,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+</Table>

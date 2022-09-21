@@ -1,0 +1,7 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<BusinessInfoDesign class="oracle.dbtools.crest.model.businessinfo.BusinessInfoDesign" name="Business Information" id="5BF5538B-73BC-DC9A-672C-AC4B8072E0AA">
+<createdBy>braimt</createdBy>
+<createdTime>2022-08-14 15:08:16 UTC</createdTime>
+<ownerDesignName>imdb-datasets</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+</BusinessInfoDesign>

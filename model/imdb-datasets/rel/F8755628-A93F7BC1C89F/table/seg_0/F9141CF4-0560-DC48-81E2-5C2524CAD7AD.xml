@@ -1,0 +1,51 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="F9141CF4-0560-DC48-81E2-5C2524CAD7AD" name="TITLE_CREW">
+<createdBy>braimt</createdBy>
+<createdTime>2022-08-14 15:37:59 UTC</createdTime>
+<commentInRDBMS><![CDATA[Contains the director and writer information for all the titles in IMDb.]]></commentInRDBMS>
+<ownerDesignName>imdb-datasets</ownerDesignName>
+<ordsAlias>table_3</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="TCONST" id="FCD0B40F-20E5-3BCE-40F2-C68200ECCAAA">
+<createdBy>braimt</createdBy>
+<createdTime>2022-08-14 15:38:37 UTC</createdTime>
+<commentInRDBMS><![CDATA[alphanumeric unique identifier of the title]]></commentInRDBMS>
+<ownerDesignName>imdb-datasets</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>12 CHAR</dataTypeSize>
+<ownDataTypeParameters>12 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DIRECTORS" id="B1614757-02C6-CA1F-F3EE-37BC4C866098">
+<createdBy>braimt</createdBy>
+<createdTime>2022-08-14 15:38:37 UTC</createdTime>
+<commentInRDBMS><![CDATA[(array of nconsts) - director(s) of the given title]]></commentInRDBMS>
+<ownerDesignName>imdb-datasets</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>4000 CHAR</dataTypeSize>
+<ownDataTypeParameters>4000 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="WRITERS" id="97240FED-A2FF-09EB-47A6-16B835893D87">
+<createdBy>braimt</createdBy>
+<createdTime>2022-08-14 15:38:37 UTC</createdTime>
+<commentInRDBMS><![CDATA[(array of nconsts) – writer(s) of the given title]]></commentInRDBMS>
+<ownerDesignName>imdb-datasets</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>4000 CHAR</dataTypeSize>
+<ownDataTypeParameters>4000 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+</Table>

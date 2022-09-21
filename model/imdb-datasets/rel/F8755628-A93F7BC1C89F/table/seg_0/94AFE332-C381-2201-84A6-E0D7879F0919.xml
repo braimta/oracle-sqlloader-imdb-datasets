@@ -1,0 +1,52 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="94AFE332-C381-2201-84A6-E0D7879F0919" name="TITLE_RATINGS">
+<createdBy>braimt</createdBy>
+<createdTime>2022-08-14 15:44:52 UTC</createdTime>
+<commentInRDBMS><![CDATA[Contains the IMDb rating and votes information for titles]]></commentInRDBMS>
+<ownerDesignName>imdb-datasets</ownerDesignName>
+<ordsAlias>table_6</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="TCONST" id="FB6116B1-322E-A424-A4A4-BBB24C97EFBF">
+<createdBy>braimt</createdBy>
+<createdTime>2022-08-14 15:45:54 UTC</createdTime>
+<commentInRDBMS><![CDATA[alphanumeric unique identifier of the title]]></commentInRDBMS>
+<ownerDesignName>imdb-datasets</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>12 CHAR</dataTypeSize>
+<ownDataTypeParameters>12 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="AVERAGE_RATING" id="51A9BAA1-AA2F-CDEA-B1B1-32849E890437">
+<createdBy>braimt</createdBy>
+<createdTime>2022-08-14 15:45:54 UTC</createdTime>
+<commentInRDBMS><![CDATA[weighted average of all the individual user ratings]]></commentInRDBMS>
+<ownerDesignName>imdb-datasets</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>8</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,8,2</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NUM_VOTES" id="646013E2-9A58-FD26-8BFB-62DB5E72F560">
+<createdBy>braimt</createdBy>
+<createdTime>2022-08-14 15:45:54 UTC</createdTime>
+<commentInRDBMS><![CDATA[number of votes the title has received]]></commentInRDBMS>
+<ownerDesignName>imdb-datasets</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>8</dataTypePrecision>
+<ownDataTypeParameters>,8,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+</Table>

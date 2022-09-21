@@ -1,0 +1,90 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="B345B058-6C47-3860-E868-4CD5F9900B22" name="TITLE_PRINCIPALS">
+<createdBy>braimt</createdBy>
+<createdTime>2022-08-14 15:40:32 UTC</createdTime>
+<commentInRDBMS><![CDATA[Contains the principal cast/crew for titles]]></commentInRDBMS>
+<ownerDesignName>imdb-datasets</ownerDesignName>
+<ordsAlias>table_5</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="TCONST" id="8386EFD9-156E-1751-7CB5-2ADCCE2C202C">
+<createdBy>braimt</createdBy>
+<createdTime>2022-08-14 15:43:37 UTC</createdTime>
+<commentInRDBMS><![CDATA[alphanumeric unique identifier of the title]]></commentInRDBMS>
+<ownerDesignName>imdb-datasets</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>12 CHAR</dataTypeSize>
+<ownDataTypeParameters>12 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ORDERING" id="F249646D-5E77-A563-9096-815FD5C16B49">
+<createdBy>braimt</createdBy>
+<createdTime>2022-08-14 15:43:37 UTC</createdTime>
+<commentInRDBMS><![CDATA[a number to uniquely identify rows for a given titleId]]></commentInRDBMS>
+<ownerDesignName>imdb-datasets</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>8</dataTypePrecision>
+<ownDataTypeParameters>,8,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NCONST" id="B2A1A8BE-DE8B-3A36-CDDD-A9BF98C821ED">
+<createdBy>braimt</createdBy>
+<createdTime>2022-08-14 15:43:37 UTC</createdTime>
+<commentInRDBMS><![CDATA[alphanumeric unique identifier of the name/person]]></commentInRDBMS>
+<ownerDesignName>imdb-datasets</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>12 CHAR</dataTypeSize>
+<ownDataTypeParameters>12 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CATEGORY" id="1F62D2FC-7643-9F11-A915-E753D204CE95">
+<createdBy>braimt</createdBy>
+<createdTime>2022-08-14 15:43:37 UTC</createdTime>
+<commentInRDBMS><![CDATA[the category of job that person was in]]></commentInRDBMS>
+<ownerDesignName>imdb-datasets</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>1000 CHAR</dataTypeSize>
+<ownDataTypeParameters>1000 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="JOB" id="0CFE42EF-D96F-04FF-FCCF-DA0F5967E1FA">
+<createdBy>braimt</createdBy>
+<createdTime>2022-08-14 15:43:37 UTC</createdTime>
+<commentInRDBMS><![CDATA[the specific job title if applicable, else '\N']]></commentInRDBMS>
+<ownerDesignName>imdb-datasets</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>1000 CHAR</dataTypeSize>
+<ownDataTypeParameters>1000 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CHARACTERS" id="BFADBD34-02B6-2137-1E27-6002A6005472">
+<createdBy>braimt</createdBy>
+<createdTime>2022-08-14 15:43:37 UTC</createdTime>
+<commentInRDBMS><![CDATA[the name of the character played if applicable, else '\N']]></commentInRDBMS>
+<ownerDesignName>imdb-datasets</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>4000 CHAR</dataTypeSize>
+<ownDataTypeParameters>4000 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+</Table>
